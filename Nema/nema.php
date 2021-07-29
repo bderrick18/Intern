@@ -1,6 +1,6 @@
 <?php
 
- $sql_connection = new mysqli("localhost","root","","Nema");
+ $sql_connection = new mysqli("localhost","root","_1aC[VL#$Bz5(%ty","Nema");
   
 
 $sql_connection->query("CREATE TABLE IF NOT EXISTS districts(ID INT(15) NOT NULL AUTO_INCREMENT, PRIMARY KEY(ID), NAME VARCHAR(30) NOT NULL UNIQUE)");

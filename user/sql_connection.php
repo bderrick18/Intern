@@ -1,5 +1,5 @@
 <?php
-$sql_connection = new mysqli("localhost","root","","rearing");
+$sql_connection = new mysqli("localhost","root","_1aC[VL#$Bz5(%ty","rearing");
 
 $sql_connection->query("CREATE TABLE IF NOT EXISTS subcounty(ID INT(11) NOT NULL AUTO_INCREMENT, PRIMARY KEY(ID), NAME VARCHAR(30) NOT NULL UNIQUE)");
 
